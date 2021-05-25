@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Annual_Day company="Aptech">
+    <Event>
+        <Coordinator>
+            James
+        </Coordinator>
+        <SoundManager>
+            Kim
+        </SoundManager>
+        <Director>
+            Daniel
+        </Director>
+    </Event>
+    <Event>
+        Drama
+        <Name>
+            A doctor's story.
+        </Name>
+        <Director>
+            Spencor
+        </Director>
+        <Participants number="4">
+             Tony,Bony,Sam,Lily
+        </Participants>
+    </Event>
+    <Event>
+        Group Song
+        <Theme>Patriotic</Theme>
+        <Compoesr>Chin Chan</Compoesr>
+        <Participants number="3">Rose,Jack,Steve</Participants>
+    </Event>
+        <Event>
+            Prize Distribution
+            <Divivion>Sales
+            <Team>Richard &apos;s team from LA</Team>
+            </Divivion>
+            <Divivion>
+                Marketing
+                <Team>Bill&apos;s team from NY</Team>
+            </Divivion>
+    </Event>
+</Annual_Day>
