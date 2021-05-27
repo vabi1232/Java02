@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<EventManager xmlns="http://www.creativemanagerment.com"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation ="http://www.creativemanagerment.com EventManegement.xsd">
+    <Event orderid="A564">
+        <Customer>TideWaterHouseCoopers</Customer>
+        <Venue>Hilton Bermingham Metrople</Venue>
+        <Date>2007-04-24</Date>
+        <NoOfGuests>100</NoOfGuests>
+        <ContactNumber>345485</ContactNumber>
+        <Address>32 High Street, North Midlands</Address>
+    </Event>
+    <Service category="AnnualConference">
+        <TechDelivery>Mutimedia Arragement</TechDelivery>
+        <Entertaiment>Media Personality</Entertaiment>
+        <VenueBooking>Through TravelDesignated</VenueBooking>
+        <Themeing>Emulate Movie Themed Dinner</Themeing>
+    </Service>
+</EventManager>

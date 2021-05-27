@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<VoterDetails xmlns='http://www.electionsuvey.com'
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+             xsi:schemaLocation ='http://www.electionsuvey.com ElectionSurvey_schema.xsd'>
+    <VoterName>Halle Brown</VoterName>
+    <Gender>FeMale</Gender>
+    <Age>24</Age>
+    <DateOfBirth>1982-05-13</DateOfBirth>
+    <Profession>Student</Profession>
+    <Phonenumber>04065451123</Phonenumber>
+    <Address>37-Park Street</Address>
+    <City>4000 Stavanger</City>
+    <State>Bergen</State>
+</VoterDetails>

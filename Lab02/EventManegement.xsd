@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.creativemanagerment.com"
+        xmlns="http://www.creativemanagerment.com"
+           elementFormDefault="qualified">
+    <xs:element name="Customer" type="xs:string"/>
+    <xs:element name="Venue" type="xs:string"/>
+    <xs:element name="Date" type="xs:date"/>
+    <xs:element name="ContactNumber" type="xs:long"/>
+    <xs:element name="Address" type="xs:string"/>
+    <xs:element name="TechDelivery" type="xs:string"/>
+    <xs:element name="Entertaiment" type="xs:string"/>
+    <xs:element name="VenueBooking" type="xs:string"/>
+    <xs:element name="Themeing" type="xs:string"/>
+    <!-- definition for simple types -->
+    <xs:element name="NoOfGuests">
+        <xs:simpleType>
+            <xs:restriction base="xs:integer">
+                <xs:minInclusive value="0"/>
+                <xs:maxInclusive value="200"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <!-- definition for complex elements -->
+    <xs:element name ="Event">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Customer" />
+                <xs:element ref="Venue" />
+                <xs:element ref="Date" />
+                <xs:element ref="NoOfGuests" />
+                <xs:element ref="ContactNumber" />
+                <xs:element ref="Address" />
+            </xs:sequence>
+            <xs:attribute name="orderid" type="xs:string" />
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Service">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="TechDelivery" />
+                <xs:element ref="Entertaiment" />
+                <xs:element ref="VenueBooking" />
+                <xs:element ref="Themeing" />
+            </xs:sequence>
+            <xs:attribute name="category" type="xs:string" use="required" />
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="EventManager">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Event" minOccurs="1" maxOccurs="unbounded" />
+                <xs:element ref="Service" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
