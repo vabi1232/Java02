@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="BookInfo.css"?>
+<Book>
+    <BookDetail>
+        <TitleDetails>
+            <Title>Head First Java, 2nd Edittion</Title>
+            by
+            <Authors>Kathy Sierra, Bert Bates</Authors>
+            (<EditionInfo>PaperBack</EditionInfo> -
+            <PrintDate>
+                Feb 9,2005
+            </PrintDate>
+        </TitleDetails>
+        <Price>New Price:
+            <NewPrice>$29.67</NewPrice>
+            Old Price:
+            <OldPrice>$18.98</OldPrice>
+        </Price>
+        <OderInfo>
+            Get it by
+            <GetDat>
+                Tuesday, Feb. 27
+            </GetDat>,if you order in the next
+            <Hours>57 hours and</Hours>
+            <Minutes>43 Minutes</Minutes>
+        </OderInfo>
+        <EditionInfo>Other Editions:
+            <EditionType>PaperBack</EditionType>
+        </EditionInfo>
+    </BookDetail>
+</Book>

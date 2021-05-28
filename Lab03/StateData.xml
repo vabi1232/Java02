@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="StateData.xsl"?>
+<SateDate>
+    <stateId id="001">
+        <Name>California</Name>
+        <Population>33871648 people</Population>
+        <Capital>Sacramento</Capital>
+        <Bird>Quail</Bird>
+        <Flower>Golden Poppy</Flower>
+        <Arae>155959</Arae>
+    </stateId>
+    <stateId id="002">
+        <Name>California</Name>
+        <Population>33871648 people</Population>
+        <Capital>Sacramento</Capital>
+        <Bird>Quail</Bird>
+        <Flower>Golden Poppy</Flower>
+        <Arae>155959</Arae>
+    </stateId>
+    <stateId id="003">
+        <Name>California</Name>
+        <Population>33871648 people</Population>
+        <Capital>Sacramento</Capital>
+        <Bird>Quail</Bird>
+        <Flower>Golden Poppy</Flower>
+        <Arae>155959</Arae>
+    </stateId>
+</SateDate>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="employee.xsl" ?>
+<class>
+    <employee id="001">
+        <firstname>Dang</firstname>
+        <lastname>Kim</lastname>
+        <nickname>THIDK</nickname>
+        <salary>30000</salary>
+    </employee>
+    <employee id="024">
+        <firstname>Dang</firstname>
+        <lastname>Kim</lastname>
+        <nickname>THIDK</nickname>
+        <salary>25000</salary>
+    </employee>
+    <employee id="056">
+        <firstname>Dang</firstname>
+        <lastname>Kim</lastname>
+        <nickname>THIDK</nickname>
+        <salary>10000</salary>
+    </employee>
+</class>
