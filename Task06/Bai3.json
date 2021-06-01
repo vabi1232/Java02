@@ -1,0 +1,95 @@
+{
+  "menu": {
+    "header": "Adobe SVG Viewer",
+    "item": {
+      "action": "Open",
+      "id": "Open",
+      "item": "Open"
+    },
+    "item": {
+      "action": "OpenNew",
+      "id": "OpenNew",
+      "item": "OpenNew"
+    },
+    "item": {
+      "action": "ZoomIn",
+      "id": "ZoomIn",
+      "item": "ZoomIn"
+    },
+    "item": {
+      "action": "ZoomOut",
+      "id": "ZoomOut",
+      "item": "ZoomOut"
+    },
+    "item": {
+      "action": "OriginalView",
+      "id": "OriginalView",
+      "item": "OriginalView"
+    },
+    "item": {
+      "action": "Quality",
+      "id": "Quality",
+      "item": "Quality"
+    },
+    "item": {
+      "action": "Pause",
+      "id": "Pause",
+      "item": "Pause"
+    },
+    "item": {
+      "action": "Mute",
+      "id": "Mute",
+      "item": "Mute"
+    },
+    "item": {
+      "action": "Find",
+      "id": "Find",
+      "item": "Find"
+    },
+    "item": {
+      "action": "FindAgain",
+      "id": "FindAgain",
+      "item": "FindAgain"
+    },
+    "item": {
+      "action": "Copy",
+      "id": "Copy",
+      "item": "Copy"
+    },
+    "item": {
+      "action": "CopyAgain",
+      "id": "CopyAgain",
+      "item": "CopyAgain"
+    },
+    "item": {
+      "action": "CopySVG",
+      "id": "CopySVG",
+      "item": "CopySVG"
+    },
+    "item": {
+      "action": "ViewSVG",
+      "id": "ViewSVG",
+      "item": "ViewSVG"
+    },
+    "item": {
+      "action": "ViewSource",
+      "id": "ViewSource",
+      "item": "ViewSource"
+    },
+    "item": {
+      "action": "SaveAs",
+      "id": "SaveAs",
+      "item": "SaveAs"
+    },
+    "item": {
+      "action": "Help",
+      "id": "Help",
+      "item": "Help"
+    },
+    "item": {
+      "action": "About",
+      "id": "About",
+      "item": "About"
+    }
+  }
+}
